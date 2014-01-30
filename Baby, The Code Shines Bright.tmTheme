@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>author</key>
-	<string>Jessica Allen</string>
-	<key>comment</key>
-	<string>Baby</string>
 	<key>name</key>
 	<string>Baby, The Code Shines Bright</string>
 	<key>settings</key>
@@ -14,17 +10,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#000000</string>
+				<string>#070D15</string>
 				<key>caret</key>
-				<string>#FFFFFF</string>
+				<string>#FFFFFF8C</string>
 				<key>foreground</key>
 				<string>#F6F6F6</string>
 				<key>invisibles</key>
-				<string>#FFFFFF40</string>
+				<string>#323232</string>
 				<key>lineHighlight</key>
-				<string>#041C1A</string>
+				<string>#B440CD33</string>
 				<key>selection</key>
-				<string>#A768EF69</string>
+				<string>#4C40CD39</string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,13 +66,26 @@
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#FFF39E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage Type</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DB558F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -148,7 +157,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#D44741</string>
+				<string>#B446A1</string>
 				<key>foreground</key>
 				<string>#F8F8F8</string>
 			</dict>
@@ -157,7 +166,8 @@
 			<key>name</key>
 			<string>-----------------------------------</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -165,7 +175,8 @@
 			<key>scope</key>
 			<string>text source</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -372,8 +383,99 @@
 				<string>#4B7FD4</string>
 			</dict>
 		</dict>
+		
+		<!-- Linter jazz -->
+ 		<dict>
+			<key>name</key>
+			<string>SublimeLinter Annotations</string>
+			<key>scope</key>
+			<string>sublimelinter.annotations</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFAA</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF4A52</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DF9400</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff33</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>EA04C465-9FF6-4540-9F02-FF1FCBA5BAF9</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.baby,_the_code_shines_bright</string>
 </dict>
 </plist>
